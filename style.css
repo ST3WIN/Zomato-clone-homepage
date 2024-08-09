@@ -1,0 +1,627 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+/* header */
+
+header{
+    
+    width: 100%;
+    height: 59vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    margin-bottom: 3.9vh;
+}
+
+.banner-image{
+    width: 100%;
+    position: absolute;
+    top: -20vh;
+    z-index: -1;
+   
+}
+
+.banner-image img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.nav h4{
+    font-size: 13.5px;
+    font-weight: lighter;
+    margin-left: 64px;
+    margin-top: 0;
+    margin-top: 10px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    margin: 1vh 10vw;
+    margin-right: 200px;
+    justify-content: space-between;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar li{
+    list-style: none;
+    font-size: 1em;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+    
+}
+
+.banner-logo{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5vh;
+    align-items: center;
+}
+
+.logo-white{
+    margin-right: 12px;
+    width: 19vw;
+}
+
+.banner-logo h3{
+    letter-spacing: 1px;
+    font-size: 2.1em;
+    color: whitesmoke;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.search{
+    display: flex;
+    width: 50vw;
+    height: 44px;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 0;
+}
+
+.search input{
+    outline: none;
+    border: none;
+    width: 50%;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+
+.search p{
+    
+    
+    color: gray;
+    border-right: 1.9px solid rgba(128, 128, 128, 0.438);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding-right: 10px;
+    padding-right: 150px;
+    
+}
+
+.search .location{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search .search-icon{
+    padding-left: 20px;
+    
+}
+
+.location{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* header end */
+
+/* section1 */
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    height: 36.5vh;
+    align-items: center;
+    gap: 16px;
+    padding-right: 31px;
+}
+.card{
+    height: 34.2vh;
+    width: 548px;
+    border-radius: 15px;
+    border: 1px solid rgb(234, 234, 234);
+    overflow: hidden;
+    text-align: start;
+    cursor: pointer;
+    
+}
+.image-container{
+    width: 100%;
+    height: 160px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.card h3{
+    letter-spacing: 1px;
+    font-family: Tahoma, sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+    color: rgb(24, 24, 24);
+    padding-left:12px;
+}
+
+.card h2{
+    letter-spacing: 1px;
+    font-family: Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: rgb(88, 87, 87);
+    padding-left: 13px;
+    
+}
+
+
+.image-container img:hover{
+    transform: scale(1.1) ;
+    
+}
+
+/* section 1 end */
+
+/* section2  */
+
+.section-2{
+    margin: 60px 150px;
+}
+
+.collections h2{
+    font-size: 2.7rem;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+
+.collections div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.collections h6{
+    margin: 0;
+    padding-left: 50px;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: rgb(99, 98, 98);
+}
+
+ .collections span{
+    color: rgb(248, 177,177);
+    padding-right: 100px;
+    font-size: 1.1em;
+}
+
+.collections span:hover{
+    cursor: pointer;
+}
+
+.arrow-right-fill-pink{
+    width: 10px;
+    height: 10px;
+}
+
+.box1{
+    width: 255px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+}
+
+.box1 div{
+    position: absolute;
+    background: linear-gradient(transparent,black);
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: flex-end;
+    bottom: 0;
+}
+
+.box1 div span:first-child{
+    display: inline-block;
+    color: white;
+    padding-left: 15px;
+    font-size: 1rem;
+    padding-bottom: 5px;
+}
+
+.box1 .pic{
+    width: 255px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.places span{
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.places{
+    display: flex;
+    margin-left: 45px;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 130px;
+} 
+
+.places:hover{
+    cursor: pointer;
+}
+
+.section-2 h1{
+    font-size: 2.1rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 50px;
+    color: rgb(56, 56, 56);
+    padding-right: 490px;
+}
+ .place{
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-row-gap:30px ;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: auto;
+ }
+
+ .box-2{
+    border: 1px solid rgb(235, 233, 233);
+    box-shadow: 0 1px rgb(226,223,223);
+    width: 340px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+
+ .box-2 div{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+ }
+
+ .box-2 div span{
+    color: rgb(65,64,64);
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.box-2:hover{
+    box-shadow: 0px 3px 5px rgb(230, 227, 227);
+}
+
+ 
+/* section 2 end */
+
+
+/* section 3 */
+#mob{
+    width: 300px;
+    height: 300px;
+    padding-top: 100px;
+}
+.section-3{
+    display:flex;
+    margin: 90px 0;
+    padding: 40px 0;
+    justify-content: center;
+    background-color: hsl(27, 100%, 98%);
+
+}  
+.flex{
+    display: flex;
+}
+
+.contact{
+    width: 760px;
+    overflow: hidden;
+}
+
+.address{
+    width: 470px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.address p{
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    color: rgb(92,91,91);
+    letter-spacing: 1px;
+}
+
+.address h2{
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: rgb(34,34,34,);
+    letter-spacing: 1px;
+}
+
+.radio{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 230px;
+    padding-bottom: 20px;
+}
+
+.radio label{
+    font-size: 1,1rem;
+    color: rgb(49,49,49,);
+}
+
+.radio [type="radio"]{
+    accent-color: rgb(255,92,92);
+}
+
+.email{
+    position: relative;
+}
+
+.email input{
+    height: 46px;
+    border-radius: 5px;
+    width: 270px;
+    border: 1px solid rgb(184,183,183);
+    font-size: 1.3rem;
+    padding-left: 15px;
+}
+
+.email-id{
+    position: absolute;
+    font-size: 1.3rem;
+    left: 15px;
+    top: 13px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.email button{
+    width: 150px;
+    border-radius: 6px;
+    border: 1px solid rgb(253,104,104);
+    background-color:rgb(253,104,104) ;
+    font-size: 1.1rem;
+    margin-left: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.download{
+    font-size: 0.7rem;
+    margin-top: 27px;
+    margin-bottom: 0;
+    color: gray;
+}
+
+.app{
+    gap: 20px;
+}
+.app img{
+    width: 137px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+/* section 3 end */
+
+
+/* section 4 */
+.section-4{
+    margin-bottom: 3.9vh;
+}
+.section-4 h1{
+    padding-right: 765px;
+    font-size: 2.1rem;
+    font-weight: lighter;
+    text-align: center;
+    margin: 50px;
+    color: rgb(56,56,56);
+}
+
+.options{
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 30px;
+    grid-template-columns: 1100px;
+    grid-template-rows: auto;
+}
+
+.box-3{
+    border: 1px solid rgb(235, 233, 233);
+    box-shadow: 0 1px rgb(226,223,223);
+    width: 1100px;
+    height: 65px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.box-3 div{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px;
+}
+
+.box-3 div span{
+    color: rgb(65,64,64);
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.box-3:hover{
+    box-shadow: 0px 3px 5px rgb(230, 227, 227);
+}
+
+
+/* section 4 end */
+
+/* foorter */
+.first img{
+    width: 128px;
+    height: 32px;
+}
+
+.section-5{
+    padding: 40px 120px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.first-1{
+    display: flex;
+}
+
+.first-1 span{
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 20px;
+  font-weight: 400;
+  align-items: center;
+}
+
+#flag{
+    height: 14px;
+    width: 15px;
+    margin-right: 10px;
+    
+}
+#nflag{
+    height: 16px;
+    width: 16px;
+    margin-left: 2px;
+    
+}
+
+.second{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.second div{
+    width: 200px;
+}
+
+.second h4{
+    font-weight: lighter;
+    color: black;
+    white-space: nowrap;
+}
+
+.second a{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+
+}
+.second a:hover{
+    color: rgb(102, 102, 102);
+}
+
+.second .apps{
+    width: 137px;
+    height: 40px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+.box-4{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-4 .icn{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    gap:20px;
+    cursor: pointer;
+}
+
+.footer-text{
+    padding: 10px 0;
+    color: gray;
+    font-size: 1em;
+}
+
+
+/* footer end */
+
+
